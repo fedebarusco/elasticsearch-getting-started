@@ -1,0 +1,13 @@
+{
+  "description" : "Pipeline to ingest attachment and store it in an index",
+  "processors" : [
+    {
+      "attachment" : {
+        "field" : "data"
+      },
+      "remove":{
+        "field":"data"
+      }
+    }
+  ]
+}

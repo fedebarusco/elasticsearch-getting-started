@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentaryUnit>
+   <Header>
+      <Version>1.3</Version>
+      <Depositor>
+         <Environment>Lorem</Environment>
+         <Entity>Ipsum</Entity>
+         <Structure>Dolor</Structure>
+         <UserID>Sit</UserID>
+      </Depositor>
+      <Key>
+         <Number>1</Number>
+         <Year>1500</Year>
+         <RegisterType>Amet</RegisterType>
+      </Key>
+      <DocumentaryUnitType>ATTI DEL DIRIGENTE</DocumentaryUnitType>
+   </Header>
+   <Configuration>
+      <StorageType>Substitute</StorageType>
+      <AcceptanceForce>false</AcceptanceForce>
+      <RetentionForce>true</RetentionForce>
+      <ConnectionForce>false</ConnectionForce>
+   </Configuration>
+   <ArchivalProfile>
+      <MainFile>
+         <Classification>100.20</Classification>
+         <File>
+            <Identifier>2</Identifier>
+            <Object>Dummy Text - Year 1500</Object>
+         </File>
+      </MainFile>
+   </ArchivalProfile>
+   <DocumentaryUnitProfile>
+      <Object>Industry's standard dummy text ever since the 1500s.</Object>
+      <Date>1500-01-01T00:00:00</Date>
+   </DocumentaryUnitProfile>
+   <AttachmentsNumber>0</AttachmentsNumber>
+   <AnnexesNumber>0</AnnexesNumber>
+   <AnnotationsNumber>0</AnnotationsNumber>
+   <MainDocument>
+      <DocumentId>12345678</DocumentId>
+      <DocumentType>Dummy Text</DocumentType>
+      <SpecificData>
+         <SpecificDataVersion>1.0</SpecificDataVersion>
+         <AdoptionNumber>1</AdoptionNumber>
+         <AdoptionDate>1500-01-01</AdoptionDate>
+         <AdoptionPlace>World</AdoptionPlace>
+         <Signer>Cicero</Signer>
+         <AdoptingStructure>ICT, TECHNOLOGIES AND FACILITIES DEPARTMENT</AdoptingStructure>
+      </SpecificData>
+      <OriginalStructure>
+         <StructureType>DocumentGeneric</StructureType>
+         <Components>
+            <Component>
+               <Id>ID_1</Id>
+               <PresentationOrder>1</PresentationOrder>
+               <ComponentType>Content</ComponentType>
+               <SupportComponentType>File</SupportComponentType>
+               <ComponentName>muspi-merol.pdf</ComponentName>
+               <FormatFileVersed>PDF</FormatFileVersed>
+               <UseSignatureDataForRifTemp>false</UseSignatureDataForRifTemp>
+               <ReferenceTime>1500-01-01T00:00:00</ReferenceTime>
+               <ReferenceTimeDescription>Date of Adoption</ReferenceTimeDescription>
+            </Component>
+         </Components>
+      </OriginalStructure>
+   </MainDocument>
+</DocumentaryUnit>

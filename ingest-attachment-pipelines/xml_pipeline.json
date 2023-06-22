@@ -1,0 +1,17 @@
+{
+    "description" : "Pipeline to parse XML and store it in an index",
+    "processors" : [
+      {
+        "attachment" : {
+          "field" : "data",
+          "target_field" : "attachment",
+          "indexed_chars" : -1
+        }
+      },
+      {
+        "remove" : {
+          "field" : "data"
+        }
+      }
+    ]
+}

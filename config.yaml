@@ -1,0 +1,15 @@
+# config.yaml
+
+elasticsearch:
+  host: localhost
+  port: 9200
+  xml_index: xml-index
+  docx_index: docx-attachment-pipeline-index
+  pdf_index: pdf-attachment-pipeline-index
+  ca_cert: http_ca.crt
+  username: elastic
+  password: S+xo81fpUt0syWoQyr+Y
+
+logging:
+  log_file: mylog.log
+  log_level: INFO
