@@ -8,7 +8,7 @@ elasticsearch:
   pdf_index: pdf-attachment-pipeline-index
   ca_cert: http_ca.crt
   username: elastic
-  password: S+xo81fpUt0syWoQyr+Y
+  password: your-password-here
 
 logging:
   log_file: mylog.log
